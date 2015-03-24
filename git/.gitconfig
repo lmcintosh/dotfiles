@@ -2,7 +2,12 @@
 	name = Lane McIntosh
 	email = lanemcintosh@gmail.com
 [alias]
-	ignore = config --global core.excludesfile ~/.gitignore_global
+	cm = commit -m
+	st = status -s
+	a = add *
+		lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    	ignore = config --global core.excludesfile ~/.gitignore
+    	d = difftool
 [core]
 	excludesfile = /Users/lmcintosh/.gitignore_global
 [difftool "sourcetree"]
