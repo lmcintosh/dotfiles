@@ -9,7 +9,7 @@
     	ignore = config --global core.excludesfile ~/.gitignore
     	d = difftool
 [core]
-	excludesfile = /Users/lmcintosh/.gitignore_global
+	excludesfile = /Users/lmcintosh/.gitignore
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
