@@ -1,0 +1,19 @@
+[user]
+	name = Lane McIntosh
+	email = lanemcintosh@gmail.com
+[alias]
+	ignore = config --global core.excludesfile ~/.gitignore_global
+[core]
+	excludesfile = /Users/lmcintosh/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = osxkeychain
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
