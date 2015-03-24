@@ -3,8 +3,6 @@
 
 " Basic Settings ---------------------- {{{
 
-call pathogen#infect()    " use pathogen
-call pathogen#helptags()  " pathogen helptags
 syntax on                 " Enable syntax highlighting
 filetype plugin indent on " Enable filetype-specific indenting and plugins
 let mapleader = ";"       " map leader
@@ -331,7 +329,7 @@ augroup END
 
 " Colorscheme (put this first)
 set background=dark
-colorscheme spacegray
+colorscheme slate
 
 " color column
 highlight ColorColumn guibg=#303030
