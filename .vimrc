@@ -116,7 +116,7 @@ noremap <Leader>q :q<CR>
 
 " get current director
 function! CurDir()
-    let curdir = substitute(getcwd(), '/Users/nirum/', "~/", "g")
+    let curdir = substitute(getcwd(), '/Users/lmcintosh/', "~/", "g")
     return curdir
 endfunction
 
@@ -288,7 +288,7 @@ noremap <Leader>b 0whvgelxi<space><Esc>
 " Abbreviations and Typos ---------------------- {{{
 
 " prose typos
-iabbrev @@      nirum@stanford.edu
+iabbrev @@      lmcintosh@stanford.edu
 iabbrev adn     and
 iabbrev tehn    then
 iabbrev waht    what
