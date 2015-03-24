@@ -359,9 +359,9 @@ set guicursor=n-c-v:ver100-blinkwait500-blinkon300-blinkoff200-Cursor
 
 " fonts
 if has("gui_gtk2")
-    set guifont=Ubuntu\ Mono\ 14
+    set guifont=Ubuntu\ Mono\ 16
 elseif has("gui_macvim")
-    set guifont=Cosmic\ Sans\ Neue\ Mono\ for\ Powerline:h16
+    set guifont=Andale_Mono:h16
     let g:Powerline_symbols = 'fancy'
 endif
 
