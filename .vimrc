@@ -23,8 +23,8 @@ set guioptions-=m                       " turn off gui menu
 set noerrorbells                        " turn off error bells
 set visualbell                          " turn on visual bell
 set ruler                               " each window gets status line
-set history=500		                    " keep 500 lines of command line history
-set foldlevelstart=1                    " fold automatically
+set history=500		                " keep 500 lines of command line history
+set foldlevelstart=3                    " fold automatically
 set lazyredraw                          " redraw only when we need to
 set wildmenu                            " tab completion when file browsing
 set wildignore+=*.png,*.jpg,*.pdf       " ignore certain files
