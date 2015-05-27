@@ -218,7 +218,7 @@ augroup web
 	autocmd FileType html,css set noexpandtab tabstop=2
 
     " closetag
-    autocmd FileType html,xml,xsl source ~/Git/dotfiles/closetag.vim
+    autocmd FileType html,xml,xsl source ~/Git/dotfiles/vim/closetag.vim
     let g:closetag_html_style=1
 
     " don't wrap html
