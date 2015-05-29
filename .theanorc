@@ -1,6 +1,7 @@
 [global]
 floatX = float32
 device = gpu
+warn_float64 = 'raise'
 
 [nvcc]
 fastmath = True
