@@ -15,7 +15,7 @@ export PATH
 
 # Added April 5, 2013
 # Updated Dec 31, 2014 with path to pyCUDA
-PYTHONPATH="/Users:/Users/lmcintosh:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Git/information-theory-toolbox:/Users/lmcintosh/Git/surround-size:/Users/lmcintosh/Git/emailing:/Users/lmcintosh/Dropbox/BIOE332_Software:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool/tests:/Users/lmcintosh/Git/pycuda:/Users/lmcintosh/Git/Sum-of-Functions-Optimizer:${PYTHONPATH}"
+PYTHONPATH="/Users:/Users/lmcintosh:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Git/information-theory-toolbox:/Users/lmcintosh/Git/surround-size:/Users/lmcintosh/Git/emailing:/Users/lmcintosh/Dropbox/BIOE332_Software:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool/tests:/Users/lmcintosh/Git/pycuda:/Users/lmcintosh/Git/Sum-of-Functions-Optimizer:/Users/lmcintosh/Git/igor/recording:${PYTHONPATH}"
 
 export PYTHONPATH
 
@@ -55,3 +55,14 @@ function cd
         builtin cd "${1}"
     fi
 }
+
+# Set the prompt to show the current git branch:
+function parse_git_branch {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo "("${ref#refs/heads/}")"
+}
+
+PS1="\h:\W$RED \$(parse_git_branch)$NO_COLOR $"
+
+# Added July 21, 2015
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
