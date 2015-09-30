@@ -15,7 +15,7 @@ export PATH
 
 # Added April 5, 2013
 # Updated Dec 31, 2014 with path to pyCUDA
-PYTHONPATH="/Users:/Users/lmcintosh:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Git/information-theory-toolbox:/Users/lmcintosh/Git/surround-size:/Users/lmcintosh/Git/emailing:/Users/lmcintosh/Dropbox/BIOE332_Software:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool/tests:/Users/lmcintosh/Git/pycuda:/Users/lmcintosh/Git/Sum-of-Functions-Optimizer:/Users/lmcintosh/Git/igor/recording:${PYTHONPATH}"
+PYTHONPATH="/Users:/Users/lmcintosh:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Dropbox:/Users/lmcintosh/Git/information-theory-toolbox:/Users/lmcintosh/Git/surround-size:/Users/lmcintosh/Git/emailing:/Users/lmcintosh/Dropbox/BIOE332_Software:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool:/Users/lmcintosh/Dropbox/BIOE332_Software/PyDSTool/tests:/Users/lmcintosh/Git/pycuda:/Users/lmcintosh/Git/Sum-of-Functions-Optimizer:/Users/lmcintosh/Git/igor/recording:/Users/lmcintosh/Git/natural-scenes:${PYTHONPATH}"
 
 export PYTHONPATH
 
