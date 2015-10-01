@@ -2,6 +2,7 @@
 floatX = float32
 device = gpu
 warn_float64 = raise
+exception_verbosity = high
 
 [nvcc]
 fastmath = True
