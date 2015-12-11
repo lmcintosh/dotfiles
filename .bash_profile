@@ -1,10 +1,10 @@
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
 # Next two lines commented out on Oct 6, 2014 due to problems udpating ipython
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+#export PATH
 
-export PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages #/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
 export CFLAGS="-I/Developer/SDKs/MacOSX10.8.sdk/usr/lib/"
 export ARCHFLAGS="-arch x86_64"
 
