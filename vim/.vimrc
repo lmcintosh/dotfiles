@@ -4,6 +4,7 @@ set expandtab
 set softtabstop=4
 set smartindent
 set autoindent
+set backspace=indent,eol,start
 
 set hlsearch
 set incsearch
