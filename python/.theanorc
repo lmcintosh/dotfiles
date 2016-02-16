@@ -9,6 +9,3 @@ fastmath = True
 
 [cuda]
 root = /usr/local/cuda
-
-[lib]
-cnmem = True
