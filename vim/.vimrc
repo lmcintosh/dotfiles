@@ -17,3 +17,7 @@ set showmatch
 colorscheme slate
 
 set guifont=Andale_Mono:h16
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
